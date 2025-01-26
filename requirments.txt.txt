@@ -5,4 +5,4 @@ numpy
 shap
 matplotlib
 joblib
-sklearn
+python==3.10
