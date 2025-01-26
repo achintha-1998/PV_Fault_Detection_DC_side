@@ -10,6 +10,14 @@ import tempfile
 import requests
 import matplotlib.pyplot as plt
 import os
+import subprocess
+import sys
+
+# Try to install scikit-learn if not present
+try:
+    import sklearn
+except ImportError:
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "scikit-learn"])
 
 # Initialize global variables
 scaler = StandardScaler()
