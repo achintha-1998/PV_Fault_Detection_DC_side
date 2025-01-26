@@ -41,7 +41,7 @@ def load_global_model():
 def train_local_model():
     global local_model, scaler
     dataset_path = "PV_simulated_data.csv"
-    if not os.path.exists(dataset_path):
+    if not os.path.exists(PV_simulated_data.csv):
         st.error("Dataset not found. Please ensure 'PV_simulated_data.csv' is available.")
         return None
 
