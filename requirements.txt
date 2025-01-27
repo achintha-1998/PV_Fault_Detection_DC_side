@@ -1,0 +1,7 @@
+streamlit
+pandas
+numpy>=1.20,<1.22
+shap
+matplotlib
+joblib
+scikit-learn==1.0.2
